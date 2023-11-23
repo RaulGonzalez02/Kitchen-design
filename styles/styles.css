@@ -1,0 +1,78 @@
+body{
+    max-width: 1200px;
+    min-width: 480px;
+    margin: 0 auto;
+    background-color: #282828;
+    color: white;
+
+}
+/* container */
+.container{
+    width: 100%;
+}
+/* menu */
+.menu{
+    display: flex;
+    justify-content: space-around;
+    gap: 15px;
+    padding: 5px 15px;
+}
+.logo__menu{
+    width: 35%;
+}
+.img__logo{
+    display: flex;
+    width: 60px;
+}
+.items__menu{
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+.link__menu{
+    text-decoration: none;
+    color: white;
+    font-variant: small-caps;
+}
+
+/* main */
+.main{
+    position: relative;
+    background:linear-gradient(90deg, rgba(0, 0, 0, 0.90) 12%, rgba(255,255,255,0.16299019607843135) 50%, rgba(255,255,255,0) 100%), url(../assets/images/DAVINIA-SIMA90-1080x637.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+.title__main{
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    font-variant: small-caps;
+}
+.subtitle__main{
+    position: absolute;
+    top: 37%;
+    left: 10%;
+    font-variant: small-caps;
+}
+.main__btn{
+    position: absolute;
+    top: 55%;
+    left: 10%;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 15px 20px;
+    background-color: rgba(214, 213, 213);
+    border-radius: 28px;
+    box-shadow: 0px 0px 60px 0px rgba(214, 213, 213, 0.68);
+    font-variant: small-caps;
+    transition-duration: 1.5s;
+}
+
+/* animations */
+.main__btn:hover{
+    transform: scale(1.2);
+    font-size: 1.2rem;
+}
