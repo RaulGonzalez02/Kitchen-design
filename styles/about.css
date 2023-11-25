@@ -402,7 +402,7 @@ body {
         background: url(../assets/images/Koje8_2-1.jpg);
         position: relative;
         height: 600px;
-        width: 1200px;
+        width: 100%;
         background-repeat: no-repeat;
         background-size: cover;
         padding: 5px;
